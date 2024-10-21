@@ -11,7 +11,6 @@ Welcome to the repository for my **personal website**, built using **Next.js** a
 - [Scripts](#scripts)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -43,4 +42,4 @@ To run this project locally, follow these steps.
 
    ```bash
    git clone https://github.com/allenjohn07/allenjohn.online.git
-   cd personal-website
+   cd allenjohn.online
