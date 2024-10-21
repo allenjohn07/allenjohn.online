@@ -8,9 +8,6 @@ Welcome to the repository for my **personal website**, built using **Next.js** a
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Scripts](#scripts)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
 
 ## Features
 
@@ -27,7 +24,7 @@ Welcome to the repository for my **personal website**, built using **Next.js** a
 - **Icons**: [React Icons](https://react-icons.github.io/react-icons/) for clean and modern SVG icons.
 - **Deployment**: Hosted on [Vercel](https://vercel.com/) for continuous integration and delivery.
 
-## Getting Starte
+## Getting Started
 
 To run this project locally, follow these steps.
 
