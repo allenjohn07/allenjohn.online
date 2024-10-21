@@ -1,6 +1,6 @@
-# Allen John's Personal Website
+# Allen John - Personal Website
 
-Welcome to the repository for **Allen John's personal website**, built using **Next.js** and **TypeScript**. This website serves as an online portfolio to showcase my work, skills, and experience in web development, particularly focusing on my journey as a full stack developer.
+Welcome to the repository for my **personal website**, built using **Next.js** and **TypeScript**. This website serves as an online portfolio to showcase my work, skills, and experience in web development, particularly focusing on my journey as a full stack developer.
 
 ## Table of Contents
 
