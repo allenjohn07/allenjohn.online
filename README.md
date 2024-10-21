@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Allen John's Personal Website
 
-## Getting Started
+Welcome to the repository for **Allen John's personal website**, built using **Next.js** and **TypeScript**. This website serves as an online portfolio to showcase my work, skills, and experience in web development, particularly focusing on my journey as a full stack developer.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Scripts](#scripts)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **About Me**: A brief introduction to my background and interests.
+- **Projects**: Showcase of my projects, with descriptions, technologies used, and live links.
+- **Responsive Design**: Optimized for various devices, including desktops, tablets, and smartphones.
+- **Contact**: Connect with me through linkedIn and github.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- **Framework**: [Next.js](https://nextjs.org/) – A React framework for production-level applications with server-side rendering (SSR) and static site generation (SSG).
+- **Language**: [TypeScript](https://www.typescriptlang.org/) – Type-safe JavaScript.
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework for styling.
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/) for clean and modern SVG icons.
+- **Deployment**: Hosted on [Vercel](https://vercel.com/) for continuous integration and delivery.
 
-To learn more about Next.js, take a look at the following resources:
+## Getting Starte
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run this project locally, follow these steps.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
 
-## Deploy on Vercel
+- Node.js version 14.x or later.
+- Package manager: npm or yarn.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/allenjohn07/allenjohn.online.git
+   cd personal-website
