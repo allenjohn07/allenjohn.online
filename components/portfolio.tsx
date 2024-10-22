@@ -73,6 +73,7 @@ export default function PortfolioComponent() {
                         <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">Tailwind</Badge>
                         <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">Shadcn UI</Badge>
                         <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">Magic UI</Badge>
+                        <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">Leaflet</Badge>
                         <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">Lottie JSON</Badge>
                     </div>
                     <div className="flex flex-wrap gap-2">
@@ -149,7 +150,7 @@ export default function PortfolioComponent() {
                     Find me on <span onClick={() => handleLinkedInRedirect()} className="text-neutral-400 font-medium transition ease-out hover:text-blue-300 hover:duration-300 cursor-pointer">LinkedIn</span> and <span onClick={() => handleGithubRedirect()} className="text-neutral-400 font-medium transition ease-out hover:text-blue-300 hover:duration-300 cursor-pointer">Github</span>
                 </p>
             </footer>
-            <p className="text-neutral-600">Last updated on October 21, 2024</p>
+            <p className="text-neutral-600">Last updated on October 22, 2024</p>
         </div>
     )
 }
