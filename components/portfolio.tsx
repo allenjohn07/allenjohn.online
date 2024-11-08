@@ -52,7 +52,7 @@ export default function PortfolioComponent() {
             <section className="mb-16">
                 <h2 className="text-xl font-semibold mb-4">About me</h2>
                 <p className="text-neutral-200">
-                    I&apos;m a full stack developer with a passion for TypeScript, Next.js, and solving Rubik&apos;s cubes. I enjoy tea and love taking on challenges!
+                    Fueled by tea, family, and a long-standing passion for Rubik&apos;s cubes. I&apos;m a web developer by day, overthinker by night.I&apos;d love more time for gaming, but life keeps me focused on what matters most.
                 </p>
             </section>
 
@@ -150,7 +150,7 @@ export default function PortfolioComponent() {
                     Find me on <span onClick={() => handleLinkedInRedirect()} className="text-neutral-400 font-medium transition ease-out hover:text-blue-300 hover:duration-300 cursor-pointer">LinkedIn</span> and <span onClick={() => handleGithubRedirect()} className="text-neutral-400 font-medium transition ease-out hover:text-blue-300 hover:duration-300 cursor-pointer">Github</span>
                 </p>
             </footer>
-            <p className="text-neutral-600">Last updated on October 22, 2024</p>
+            <p className="text-neutral-600">Last updated on November 08, 2024</p>
         </div>
     )
 }
