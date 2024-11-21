@@ -150,7 +150,7 @@ export default function PortfolioComponent() {
                     Find me on <span onClick={() => handleLinkedInRedirect()} className="text-neutral-400 font-medium transition ease-out hover:text-blue-300 hover:duration-300 cursor-pointer">LinkedIn</span> and <span onClick={() => handleGithubRedirect()} className="text-neutral-400 font-medium transition ease-out hover:text-blue-300 hover:duration-300 cursor-pointer">Github</span>
                 </p>
             </footer>
-            <p className="text-neutral-600">Last updated on November 08, 2024</p>
+            <p className="text-neutral-600">Last updated on November 21, 2024</p>
         </div>
     )
 }
