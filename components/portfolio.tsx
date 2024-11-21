@@ -51,7 +51,7 @@ export default function PortfolioComponent() {
 
             <section className="mb-16">
                 <h2 className="text-xl font-semibold mb-4">About me</h2>
-                <p className="text-neutral-200">
+                <p className="text-neutral-400">
                     Fueled by tea, family, and a long-standing passion for Rubik&apos;s cubes. I&apos;m a web developer by day, overthinker by night. I&apos;d love more time for gaming, but life keeps me focused on what matters most.
                 </p>
             </section>
