@@ -134,7 +134,7 @@ export default function PortfolioComponent() {
                             <p className="text-neutral-500 text-sm md:ml-auto mt-1 md:mt-0">July 2017 - Present</p>
                         </div>
                         <p className="text-neutral-400">
-                            For the past 7 years, I&apos;ve been an active participant in official Rubik&apos;s Cube competitions and various unofficial cubing events across Kerala. To date, I&apos;ve competed in 17 World Cube Association competitions, along with several unofficial events hosted by college tech fests.
+                            For the past 7 years, I&apos;ve been an active participant in official Rubik&apos;s Cube competitions and various unofficial cubing events across Kerala. To date, I&apos;ve competed in 18 World Cube Association competitions, along with several unofficial events hosted by college tech fests.
                         </p>
                         <p className="text-neutral-400">
                             In addition to competing, I&apos;ve also had the privilege of organizing a couple of World Cube Association competitions, helping to bring the cubing community together in Kerala.
