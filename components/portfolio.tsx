@@ -202,7 +202,7 @@ export default function PortfolioComponent() {
               </div>
             </div>
             <p className="text-neutral-500 text-sm md:ml-auto mt-1 md:mt-0">
-              June 2019 - March 2022
+              May 2025 - December 2026 
             </p>
           </li>
           <li className="space-y-1">
