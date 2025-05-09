@@ -245,7 +245,7 @@ export default function PortfolioComponent() {
               </p>
             </div>
             <p className="text-neutral-400">
-              For the past 7 years, I&apos;ve been an active participant in
+              For the past 8 years, I&apos;ve been an active participant in
               official Rubik&apos;s Cube competitions and various unofficial
               cubing events across Kerala. To date, I&apos;ve competed in 18
               World Cube Association competitions, along with several unofficial
