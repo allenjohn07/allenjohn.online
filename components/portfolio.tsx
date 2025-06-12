@@ -9,9 +9,17 @@ export default function PortfolioComponent() {
     window.open("https://www.cubingkerala.org", "_blank");
   };
 
+  const handleWebsiteRedirectSCI = () => {
+    window.open("https://www.speedcubersindia.com", "_blank");
+  }
+
   const handleSourceRedirect = () => {
     window.open("https://github.com/cubingkeralaorg/cubingkerala", "_blank");
   };
+
+  const handleSourceRedirectSCI = () => {
+    window.open("https://github.com/Speed-Cubers-India", "_blank");
+  }
 
   const handleHubRedirect = () => {
     window.open("https://www.luminartechnohub.com", "_blank");
@@ -58,10 +66,7 @@ export default function PortfolioComponent() {
       <section className="mb-16">
         <h2 className="text-xl font-semibold mb-4">About me</h2>
         <p className="text-neutral-400">
-          Fueled by tea, family, and a long-standing passion for Rubik&apos;s
-          cubes. I&apos;m a web developer by day, overthinker by night. I&apos;d
-          love more time for gaming, but life keeps me focused on what matters
-          most.
+          I&apos;m a software development student at Southern Alberta Institute of Technology, living in Calgary. I love building cool web apps that feel easy to use.
         </p>
       </section>
 
@@ -69,7 +74,7 @@ export default function PortfolioComponent() {
         <h2 className="text-xl font-semibold mb-4">Projects</h2>
         <ul className="space-y-4">
           <li>
-            <h3 className="font-medium text-neutral-200">Cubing Kerala</h3>
+            <h3 className="font-medium text-neutral-200">Cubing Kerala Website</h3>
             <p className="text-neutral-400">
               As an active member of the cubing community in Kerala, I developed
               this web application to help cubers track upcoming and past
@@ -122,6 +127,43 @@ export default function PortfolioComponent() {
               <AnimatedShinyTextComponent name="Website" />
             </div>
             <div className="w-fit" onClick={() => handleSourceRedirect()}>
+              <AnimatedShinyTextComponent name="Source" />
+            </div>
+          </div>
+          <li className="pt-2">
+            <h3 className="font-medium text-neutral-200">Speedcubers India Website</h3>
+            <p className="text-neutral-400">
+              As part of a 4-member team, I was responsible for the frontend development of a web application for SpeedCubers India, an organization currently seeking WCA regional recognition. I also contributed to the backend. The platform highlights a national ranking system for Indian cubers and features a live feed of upcoming and past competitions organized under SpeedCubers India. We are trying to launch this platform in the coming months.
+            </p>
+          </li>
+          <div className="flex flex-wrap gap-2">
+            <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">
+              Next.js
+            </Badge>
+            <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">
+              TypeScript
+            </Badge>
+            <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">
+              Express
+            </Badge>
+            <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">
+              Amazon S3
+            </Badge>
+            <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">
+              WCA API&apos;s
+            </Badge>
+            <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">
+              Tailwind
+            </Badge>
+            <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">
+              Chakra UI
+            </Badge>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <div className="w-fit" onClick={() => handleWebsiteRedirectSCI()}>
+              <AnimatedShinyTextComponent name="Website" />
+            </div>
+            <div className="w-fit" onClick={() => handleSourceRedirectSCI()}>
               <AnimatedShinyTextComponent name="Source" />
             </div>
           </div>
@@ -282,7 +324,7 @@ export default function PortfolioComponent() {
           </span>
         </p>
       </footer>
-      <p className="text-neutral-600">Last updated on May 6, 2025</p>
+      <p className="text-neutral-600">Last updated on June 12, 2025</p>
     </div>
   );
 }

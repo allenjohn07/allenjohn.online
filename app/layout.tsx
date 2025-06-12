@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google"
+import { Poppins } from "next/font/google";
 import "./globals.css";
-
-const dmSans = DM_Sans({
-  subsets: ['latin'],
-  variable: '--font-roboto-mono',
-})
 
 export const metadata: Metadata = {
   title: "Allen John",
@@ -15,6 +10,12 @@ export const metadata: Metadata = {
   }
 };
 
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '400', '400'],
+  variable: '--font-poppins',
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -23,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${dmSans.variable} font-mono bg-neutral-950`}
+        className={`${poppins.className} bg-neutral-950`}
       >
         {children}
       </body>
