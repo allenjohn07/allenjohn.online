@@ -74,7 +74,7 @@ export default function PortfolioComponent() {
         <h2 className="text-xl font-semibold mb-4">Projects</h2>
         <ul className="space-y-4">
           <li>
-            <h3 className="font-medium text-neutral-200">Cubing Kerala Website</h3>
+            <h3 className="font-medium text-neutral-200 pb-2">Cubing Kerala Website</h3>
             <p className="text-neutral-400">
               As an active member of the cubing community in Kerala, I developed
               this web application to help cubers track upcoming and past
@@ -131,7 +131,7 @@ export default function PortfolioComponent() {
             </div>
           </div>
           <li className="pt-2">
-            <h3 className="font-medium text-neutral-200">Speedcubers India Website</h3>
+            <h3 className="font-medium text-neutral-200 pb-2">Speedcubers India Website</h3>
             <p className="text-neutral-400">
               As part of a 4-member team, I was responsible for the frontend development of a web application for SpeedCubers India, an organization currently seeking WCA regional recognition. I also contributed to the backend. The platform highlights a national ranking system for Indian cubers and features a live feed of upcoming and past competitions organized under SpeedCubers India. We are trying to launch this platform in the coming months.
             </p>
