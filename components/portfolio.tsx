@@ -66,7 +66,7 @@ export default function PortfolioComponent() {
       <section className="mb-16">
         <h2 className="text-xl font-semibold mb-4">About me</h2>
         <p className="text-neutral-400">
-          I&apos;m a software development student at Southern Alberta Institute of Technology, living in Calgary. I love building cool web apps that feel easy to use.
+          I&apos;m a software development student at Southern Alberta Institute of Technology, living in Calgary. I enjoy building web apps that provide real value to users.
         </p>
       </section>
 
@@ -74,17 +74,9 @@ export default function PortfolioComponent() {
         <h2 className="text-xl font-semibold mb-4">Projects</h2>
         <ul className="space-y-4">
           <li>
-            <h3 className="font-medium text-neutral-200 pb-2">Cubing Kerala Website</h3>
+            <h3 className="font-medium text-neutral-200 pb-1">Cubing Kerala Website</h3>
             <p className="text-neutral-400">
-              As an active member of the cubing community in Kerala, I developed
-              this web application to help cubers track upcoming and past
-              competitions and their rankings. It enhances a previous
-              application built with JavaScript, React, and Node, which suffered
-              from slow performance on a free hosting service. The new version
-              uses Next.js for improved deployment and TypeScript for type
-              safety, integrating World Cube Association authentication and
-              their APIs to provide essential data, keeping the community
-              informed and engaged.
+              As an active member of the cubing community in Kerala, I developed this web application to help cubers track upcoming and past competitions, as well as their rankings. It builds upon a previous version made with JavaScript, React, and Node, which faced performance issues due to free hosting limitations. The new version leverages Next.js for better performance and deployment, and TypeScript for improved type safety. It integrates World Cube Association authentication and APIs to deliver essential data, keeping the community informed and engaged.
             </p>
           </li>
           <div className="flex flex-wrap gap-2">
@@ -131,9 +123,9 @@ export default function PortfolioComponent() {
             </div>
           </div>
           <li className="pt-2">
-            <h3 className="font-medium text-neutral-200 pb-2">Speedcubers India Website</h3>
+            <h3 className="font-medium text-neutral-200 pb-1">Speedcubers India Website</h3>
             <p className="text-neutral-400">
-              As part of a 4-member team, I was responsible for the frontend development of a web application for SpeedCubers India, an organization currently seeking WCA regional recognition. I also contributed to the backend. The platform highlights a national ranking system for Indian cubers and features a live feed of upcoming and past competitions organized under SpeedCubers India. We are trying to launch this platform in the coming months.
+              As part of a 4-member team, I was responsible for the frontend development of a web application for SpeedCubers India, an organization currently seeking WCA regional recognition. I’m also actively contributing to the backend. The platform features a national ranking system for Indian cubers and includes a live feed of upcoming and past competitions organized by SpeedCubers India. We are aiming to launch the platform in the coming months.
             </p>
           </li>
           <div className="flex flex-wrap gap-2">
@@ -151,6 +143,9 @@ export default function PortfolioComponent() {
             </Badge>
             <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">
               WCA API&apos;s
+            </Badge>
+            <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">
+              Tanstack query
             </Badge>
             <Badge className="text-neutral-200 bg-neutral-900 hover:bg-neutral-900">
               Tailwind
