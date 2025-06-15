@@ -76,7 +76,7 @@ export default function PortfolioComponent() {
           <li>
             <h3 className="font-medium text-neutral-200 pb-1">Cubing Kerala Website</h3>
             <p className="text-neutral-400">
-              As an active member of the cubing community in Kerala, I developed this web application to help cubers track upcoming and past competitions, as well as their rankings. It builds upon a previous version made with JavaScript, React, and Node, which faced performance issues due to free hosting limitations. The new version leverages Next.js for better performance and deployment, and TypeScript for improved type safety. It integrates World Cube Association authentication and APIs to deliver essential data, keeping the community informed and engaged.
+              As an active member of the cubing community in Kerala, I developed this web application to help cubers track upcoming and past competitions, as well as their rankings. It builds upon a previous version made with JavaScript, React, and Node, which faced performance issues due to free hosting limitations. The new version leverages Next.js for better performance and deployment, and TypeScript for improved type safety. It integrates World Cube Association authentication and APIs to deliver essential real-time data, keeping the community informed and engaged.
             </p>
           </li>
           <div className="flex flex-wrap gap-2">
@@ -125,7 +125,7 @@ export default function PortfolioComponent() {
           <li className="pt-2">
             <h3 className="font-medium text-neutral-200 pb-1">Speedcubers India Website</h3>
             <p className="text-neutral-400">
-              As part of a 4-member team, I was responsible for the frontend development of a web application for SpeedCubers India, an organization currently seeking WCA regional recognition. I’m also actively contributing to the backend. The platform features a national ranking system for Indian cubers and includes a live feed of upcoming and past competitions organized by SpeedCubers India. We are aiming to launch the platform in the coming months.
+              As part of a 4-member team, I&apos;m responsible for the frontend development of this web application for SpeedCubers India, an organization currently seeking WCA regional recognition. I&apos;m also actively contributing to the backend of this application. The platform features a national ranking system for Indian cubers and includes a live feed of upcoming and past competitions organized by SpeedCubers India. We are aiming to launch the platform in the coming months. 
             </p>
           </li>
           <div className="flex flex-wrap gap-2">
@@ -319,7 +319,7 @@ export default function PortfolioComponent() {
           </span>
         </p>
       </footer>
-      <p className="text-neutral-600">Last updated on June 12, 2025</p>
+      <p className="text-neutral-600">Last updated on June 15, 2025</p>
     </div>
   );
 }

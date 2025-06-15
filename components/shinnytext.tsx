@@ -1,4 +1,3 @@
-import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { CiGlobe } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { FaCube } from "react-icons/fa6";
@@ -6,8 +5,9 @@ import { FaCube } from "react-icons/fa6";
 
 import { cn } from "@/lib/utils";
 import AnimatedShinyText from "@/components/ui/animated-shiny-text";
+import { ArrowUpRight } from "lucide-react";
 
-export async function AnimatedShinyTextComponent({ name }: { name: string }) {
+export function AnimatedShinyTextComponent({ name }: { name: string }) {
   return (
     <div>
       <div
@@ -29,7 +29,7 @@ export async function AnimatedShinyTextComponent({ name }: { name: string }) {
               }
               {name}
             </span>
-            <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
+            <ArrowUpRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:-translate-y-[1px] group-hover:translate-x-[1px]" />
         </AnimatedShinyText>
       </div>
     </div>
